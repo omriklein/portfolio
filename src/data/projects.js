@@ -1,0 +1,30 @@
+export const projects = [
+  {
+    id: 'not-claude',
+    title: 'not-claude',
+    description: 'A fake Claude Code CLI that thinks forever. Perfect for looking busy. Published to npm — a satirical take on AI dev tools, built with TypeScript.',
+    tech: ['TypeScript', 'Node.js', 'npm'],
+    github: 'https://github.com/omriklein/not-claude',
+    live: 'https://www.npmjs.com/package/not-claude',
+    liveLabel: 'npm',
+    accentColor: 'cyan',
+  },
+  {
+    id: 'prop-hunt',
+    title: 'Prop Hunt Game',
+    description: 'A prop hunt game built in Godot. Players hide as props while others hunt them down — a fun take on the classic multiplayer game mode.',
+    tech: ['Godot', 'GDScript'],
+    github: 'https://github.com/omriklein/prop-hunt-game',
+    live: null,
+    accentColor: 'purple',
+  },
+  {
+    id: 'warus',
+    title: 'Warus',
+    description: 'One of my earliest projects — a C# game built while learning to code. The beginning of a long journey in software and game development.',
+    tech: ['C#'],
+    github: 'https://github.com/omriklein/Warus',
+    live: null,
+    accentColor: 'cyan',
+  },
+]
